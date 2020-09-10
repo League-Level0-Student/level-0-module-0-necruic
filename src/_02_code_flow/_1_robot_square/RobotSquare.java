@@ -11,13 +11,19 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotSquare {
 	
     public static void main(String[] args){
- 
+ int potato = 70;
+ int counter = 0;
+ while(counter<4)
     	// This code makes a new Robot
-    	Robot rob = new Robot();
-
+    	Robot jason = new Robot();
+jason.setSpeed(100);
+    	jason.move(300);
+jason.turn(potato);
+potato = potato+40;
+jason.move(potato);
         // PEN.  Put the robot's pen down so it can draw, Use this command:
 		 /**     rob.penDown();    **/
-
+jason.penDown();
         // SPEED. Make the robot move quickly. Use this command:
 		  /**     rob.setSpeed();    **/
  

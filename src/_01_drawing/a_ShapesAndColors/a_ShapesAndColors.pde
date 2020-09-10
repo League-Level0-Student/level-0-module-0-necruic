@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size (100,200);
+  size(500,500);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -33,7 +33,7 @@ rect(250,250, 100,100);
 //    Find the Processing Tools menu (ask your teacher for help if you can't locate it)
 //    Once you have opened the Color Selector, pick the color you want then press the Copy button.
 
-//    Color is added with the fill command that looks like this:       fill(  );
+//    Color is added with the fill command that looks like this:       fill(#69CE4B);
 
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
